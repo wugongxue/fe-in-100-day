@@ -8,7 +8,7 @@
 
 ## Resources
 
-- **Video** [6.x HTML in detail](https://biaoyansu.com/6.x)
+- (**MAIN**) Video [6.x HTML in detail](https://biaoyansu.com/6.x)
 - Web [Wikipedia](https://simple.wikipedia.org/wiki/HTML)
 - Web [HTML - W3school](https://www.w3school.com.cn/html/index.asp)
 - E-book [Pro Git](https://bingohuang.gitbooks.io/progit2/content/)
