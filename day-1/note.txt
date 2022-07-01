@@ -1,0 +1,8 @@
+HTML => 骨骼 => test.html
+CSS => 皮肤 => test.css 
+JavaScript => 神经 => test.js 
+
+html标签 最外层
+body标签 所有可见元素
+head标签 元信息的储存器 不显示
+title标签 用于指定一个页面的标题
