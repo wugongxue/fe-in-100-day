@@ -1,0 +1,38 @@
+h1-h6标签 标题标签，并列关系，优先级不同
+h1 一个网页只有一个，是整个页面的主题，可以包含子元素
+h2-h6 可以有多个
+没有h7
+
+ctrl+回车 新建下一行
+ctrl+shift+回车 新建上一行
+
+p标签 划分段落，p元素可以嵌套p元素
+
+alt+z 全局显示换行
+
+div标签 划分区域，division的缩写
+
+a标签 锚链接，标签里有属性，可以有子标签
+
+img标签 图片标签，有头无尾，src属性，alt属性
+
+表格类标签 table thead tbody tr th td
+
+xml协议？
+
+header标签 定义页头
+footer标签 定义页脚
+hr 分隔线
+
+link标签 用于加载外部资源 有头无尾
+script标签 用于加载脚本（JavaScript）
+这两个标签既可以放在head也可以放在body
+
+button标签 按钮
+
+abbr标签 缩写
+
+code标签 小段代码 行内元素
+pre标签 用于展示大段代码 “所见即所得”
+
+input元素
