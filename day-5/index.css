@@ -1,0 +1,40 @@
+.search-bar {
+  display: inline;
+}
+
+.link {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
+ 
+.nav-bar .link-group {
+  display: inline;
+  text-align: right;
+}
+
+.search {
+  color: green;
+  font-weight: 700;
+}
+
+.slogan {
+  font-size: 400%;
+  text-align: center;
+  color: rgb(0, 102, 80);
+  font-weight: 900;
+  font-family: "微软雅黑", "Microsoft Yahei";
+}
+
+.nav-bar .more {
+  border: none;
+  background: rgb(52,125,57);
+  border-radius: 3px;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-bar .more:hover {
+  background: rgb(70,149,74);
+}
