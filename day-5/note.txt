@@ -1,0 +1,53 @@
+后代选择器
+* {} 页面中的所有元素，优先级低
+a * {} a以下的所有元素
+a div {} a以下的所有div
+a b c {} 指定a以下的b以下的c
+
+指定颜色 rgba(255, 0, 0, .2) a是透明度
+
+相邻选择器 + 下一个且 .a + div
+通用相邻选择器 ~ 接下来的多个 .b ~ div
+
+伪类选择器 看重状态
+    a:link {} 所有链接中没有访问过的链接
+    a:visited {} 所有链接中访问过的链接
+    button:hover {} 悬停
+    button:active {} 激活的一瞬间
+    input:focus {} 聚焦
+
+伪元素选择器
+    p:first-letter {} 段落的首字母
+    .help:before {} 内容的前头
+    .help:after {} 内容的最后
+    div p:first-child {} div中的第一个段落
+    div p:last-child {} div中的最后一个段落
+    div p:nth-child(3) {} div中的第n个段落
+
+选择器权重 越特殊的权重越高
+
+字体属性   
+    font-family: sans-serif; 字体类型：非衬线
+                 "微软雅黑", "Microsoft Yahei";
+    font-weight: normal; 字重
+                 100-900；
+                 bold;
+    font-size: 12px;
+               100%;
+               inherit; 继承
+
+文字属性
+    text-align: left; 向左对齐
+                right; 向右对齐
+                justify; 两端对齐，平铺
+    line-height: 2; 行高为字体大小的2倍
+                 20px;
+    text-decoration: underline; 下划线
+                     overline; 上划线
+                     line-through; 删除线
+                     none;
+
+display属性 显示
+    display: block; 块级元素
+             inline; 行内元素
+             inline-block; 行内块元素
