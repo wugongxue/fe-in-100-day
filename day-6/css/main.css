@@ -12,6 +12,7 @@ a {
 .side-bar {
   float: left;
   width: 25%;
+  position: fixed;
 }
 
 .main {
@@ -64,4 +65,20 @@ a {
 
 .article-list .item {
   padding: 20px;
+}
+
+.article-list .item .title {
+  font-weight: 900;
+  font-size: 125%;
+  color: #454545;
+}
+
+.article-list .item .status {
+  color: #888;
+  font-size: 80%;
+}
+
+.article-list .item .title,
+.article-list .item .status, {
+  margin-bottom: 10px;
 }
