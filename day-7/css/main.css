@@ -1,0 +1,16 @@
+body {
+  --side-bar-width: 210px;
+  --primary-color: #c7b9ff;
+}
+
+.side-bar {
+  background: var(--primary-color);
+  float: left;
+  min-height: 100vh;
+  width: var(--side-bar-width);
+}
+
+.main {
+  float: right;
+  width: calc(100% - var(--side-bar-width));
+}
