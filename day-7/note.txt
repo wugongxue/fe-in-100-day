@@ -1,0 +1,5 @@
+框 
+    内容区content：width height
+    内边距padding
+    边框border：solid/dotted/dashed
+    外边距margin
