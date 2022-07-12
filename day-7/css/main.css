@@ -2,6 +2,7 @@ body {
   --side-bar-width: 210px;
   --primary-color: #c7b9ff;
   color: #000000;
+  font-size: 16px;
 }
 
 .side-bar {
@@ -11,6 +12,44 @@ body {
   width: var(--side-bar-width);
   box-shadow: 0px 0px 3px #454545;
   position: fixed;
+  text-align: center;
+}
+
+.header .profile {
+  width: 86px;
+  height: 86px;
+  margin-top: 34px;
+}
+
+.header .name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.header .intro {
+  font-weight: 300;
+  line-height: 19px;
+  margin-top: 6px;
+}
+
+.nav {
+  margin-top: 35px;
+  font-weight: 500;
+}
+
+.nav-item {
+  transition: 150ms;
+  cursor: pointer;
+  line-height: 43px;
+}
+
+.nav-item.active {
+  background: #fff;
+}
+
+.nav-item:hover {
+  background: #e7e7ff;
 }
 
 .main {
@@ -19,51 +58,8 @@ body {
 }
 
 .article {
-  margin-right: var(--side-bar-width);
-  margin-left: var(--side-bar-width);
-}
-
-.header .profile {
-  width: 86px;
-  height: 86px;
-  margin-top: 34px;
-  margin-left: 62px;
-  position: foxed;
-}
-
-.header .name,
-.header .intro,
-.nav {
-  text-align: center;
-}
-
-.header .name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  margin-top: 16px;
-}
-
-.header .intro {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  margin-top: 6px;
-}
-
-.nav {
-  margin-top: 35px;
-}
-
-.nav > * {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 43px;
-}
-
-.nav > *:hover {
-  background: #e7e7ff;
-  transition: 150ms;
+  width: 610px;
+  margin: 0 auto;
 }
 
 .title {
@@ -71,52 +67,48 @@ body {
   font-weight: 300px;
   font-size: 32px;
   line-height: 39px;
-  padding: 5px 10px;
+  padding: 10px 20px;
+  margin: 0 -20px;
   margin-top: 67px;
 }
 
 .status {
   font-weight: 400;
-  font-size: 16px;
   margin-top: 20px;
   color: #7452ff;
+}
+
+.content {
+   font-weight: 400;
 }
 
 .status,
-.p1,
-.p2,
-.main img,
-.subtitle {
+.content > * {
   margin-top: 20px;
+  margin-bottom: 0;
 }
 
-.p1,
-.p2 {
-  font-weight: 400;
-  font-size: 16px;
+.content p {
   line-height: 19px;
 }
 
-.p2 span {
+.content p span {
   color: #7452ff;
 }
 
-.main img {
-  width: 610px;
-  height: 207px;
+.content img {
+  width: 100%;
 }
 
-.subtitle {
+.content h2 {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 20px;
 }
 
-.content .item {
-  font-weight: 400;
-  font-size: 16px;
+.content ul li {
   line-height: 19px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   list-style-type: square;
 }
