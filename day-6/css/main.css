@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background: #454545;
   color: #eee;
@@ -13,6 +16,7 @@ a {
   float: left;
   width: 25%;
   position: fixed;
+  padding: 10px;
 }
 
 .main {
@@ -32,10 +36,6 @@ a {
 .side-bar .nav,
 .side-bar .tag-list {
   margin-bottom: 25px;
-}
-
-.side-bar > * {
-  margin: 10px 10px;
 }
 
 .side-bar .nav .item,
@@ -79,6 +79,6 @@ a {
 }
 
 .article-list .item .title,
-.article-list .item .status, {
+.article-list .item .status {
   margin-bottom: 10px;
 }
