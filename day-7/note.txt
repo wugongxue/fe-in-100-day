@@ -1,5 +1,13 @@
-框 
+框 (Block Box)
     内容区content：width height
     内边距padding
     边框border：solid/dotted/dashed
     外边距margin
+
+行框 (Line Box), line-height及vertical-align
+
+继承 权重最低，可被全局样式覆盖
+
+cookbook
+
+userAgentStyle
