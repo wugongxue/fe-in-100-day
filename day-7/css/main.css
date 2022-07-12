@@ -1,6 +1,7 @@
 body {
   --side-bar-width: 210px;
   --primary-color: #c7b9ff;
+  color: #000000;
 }
 
 .side-bar {
@@ -8,9 +9,114 @@ body {
   float: left;
   min-height: 100vh;
   width: var(--side-bar-width);
+  box-shadow: 0px 0px 3px #454545;
+  position: fixed;
 }
 
 .main {
   float: right;
   width: calc(100% - var(--side-bar-width));
+}
+
+.article {
+  margin-right: var(--side-bar-width);
+  margin-left: var(--side-bar-width);
+}
+
+.header .profile {
+  width: 86px;
+  height: 86px;
+  margin-top: 34px;
+  margin-left: 62px;
+  position: foxed;
+}
+
+.header .name,
+.header .intro,
+.nav {
+  text-align: center;
+}
+
+.header .name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 16px;
+}
+
+.header .intro {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 6px;
+}
+
+.nav {
+  margin-top: 35px;
+}
+
+.nav > * {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 43px;
+}
+
+.nav > *:hover {
+  background: #e7e7ff;
+  transition: 150ms;
+}
+
+.title {
+  background: var(--primary-color);
+  font-weight: 300px;
+  font-size: 32px;
+  line-height: 39px;
+  padding: 5px 10px;
+  margin-top: 67px;
+}
+
+.status {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+  color: #7452ff;
+}
+
+.status,
+.p1,
+.p2,
+.main img,
+.subtitle {
+  margin-top: 20px;
+}
+
+.p1,
+.p2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.p2 span {
+  color: #7452ff;
+}
+
+.main img {
+  width: 610px;
+  height: 207px;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.content .item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom:10px;
+  list-style-type: square;
 }
